@@ -1,6 +1,6 @@
 # Didit Privacy Policy
 
-**Effective date: October 28, 2026**
+**Effective date: November 1, 2026**
 
 [한국어](../) · English
 
@@ -39,6 +39,7 @@ When a task changes on one device, the App sends a signal so that your other dev
   * Retention: not stored. To avoid duplicate deliveries, the hash value and request time are kept in memory for a few seconds only. Cloudflare may process network information (such as IP addresses) while handling requests.
 * **Firebase Cloud Messaging (Google; Android and iOS apps)**
   * Processed: the device registration token (Firebase installation ID, created when you connect an account; the token and installation ID are deleted when you disconnect) needed for push delivery and a subscription topic made from the hash value above (created after you connect an account). On iOS, the Apple Push Notification service (APNs) device token is processed as well.
+  * Device information processed with it: when registering, Firebase also receives device information such as the device model, OS version, app version, language and time zone. Google states that it uses this information to deliver push messages and to understand platform and version adoption, and that it does not link it to a user or device identifier.
   * Purpose: delivering the relay's signals to Android devices and to iOS devices (when the app is not on screen). On Android nothing is displayed. On iOS the signal arrives as a silent notification; the device syncs on its own and then fills the notification with tasks already stored on the device (the signal itself contains no tasks). If you have not allowed notifications on iOS, nothing is displayed and the App only syncs.
 * **Apple Push Notification service (Apple; iOS app)**
   * Processed: the signal above (no tasks) and the APNs device token.
