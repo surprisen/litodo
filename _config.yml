@@ -1,7 +1,7 @@
 # GitHub Pages 설정. 개인정보처리방침 원본은 비공개 저장소의 PRIVACY_POLICY.md이고 privacy/index.md는 그 사본이고, privacy/en/index.md는 영어판 PRIVACY_POLICY.en.md의 사본이다.
-title: Didit
+title: LiTodo
 description: 활성 할 일을 항상 눈앞에 두는 심플 Todo 앱
 lang: ko
 theme: jekyll-theme-primer
-# 사이트 주소. surprisen.github.io에 연결한 도메인이며 이 저장소는 /didit 아래에 게시된다 (canonical·og:url이 https로 나오게 명시)
+# 사이트 주소. surprisen.github.io에 연결한 도메인이며 이 저장소는 /litodo 아래에 게시된다 (canonical·og:url이 https로 나오게 명시)
 url: https://hoonest.net
