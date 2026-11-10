@@ -1,17 +1,30 @@
 {
-  "android": { "minVersionCode": 1 },
-  "ios": { "minVersion": "1.0.0" },
-  "macos": { "minVersion": "1.0.0" },
-  "windows": { "minVersion": "1.0.0" },
+  "android": {
+    "minVersionCode": 1
+  },
+  "ios": {
+    "minVersion": "1.0.0"
+  },
+  "macos": {
+    "minVersion": "1.0.0"
+  },
+  "windows": {
+    "minVersion": "1.0.0"
+  },
   "notices": [
     {
-      "id": "2026-11-notice-test",
-      "platforms": { "android": {} },
-      "start": "2026-11-10T15:15:20Z",
-      "end": "2026-11-10T16:15:20Z",
+      "id": "2026-11-notice-test-2",
+      "platforms": {
+        "android": {},
+        "windows": {},
+        "ios": {},
+        "macos": {}
+      },
+      "start": "2026-11-10T15:58:18Z",
+      "end": "2026-11-17T15:58:18Z",
       "text": {
-        "ko": "공지 기능 시험입니다. 확인을 누르면 닫힙니다.",
-        "en": "This is a test of the notice feature. Tap OK to close."
+        "ko": "2번째 공지 테스트입니다.",
+        "en": "This is the second notice test."
       }
     }
   ]
