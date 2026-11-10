@@ -2,5 +2,17 @@
   "android": { "minVersionCode": 1 },
   "ios": { "minVersion": "1.0.0" },
   "macos": { "minVersion": "1.0.0" },
-  "windows": { "minVersion": "1.0.0" }
+  "windows": { "minVersion": "1.0.0" },
+  "notices": [
+    {
+      "id": "2026-11-notice-test",
+      "platforms": { "android": {} },
+      "start": "2026-11-10T15:15:20Z",
+      "end": "2026-11-10T16:15:20Z",
+      "text": {
+        "ko": "공지 기능 시험입니다. 확인을 누르면 닫힙니다.",
+        "en": "This is a test of the notice feature. Tap OK to close."
+      }
+    }
+  ]
 }
