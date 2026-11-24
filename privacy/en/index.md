@@ -1,6 +1,6 @@
 # LiTodo Privacy Policy
 
-**Effective date: November 8, 2026**
+**Effective date: November 25, 2026**
 
 [한국어](../) · English
 
@@ -21,6 +21,7 @@ LiTodo has no sign-up, does not collect advertising identifiers, and uses no ana
 * **On-device backups**: so that you can bring back tasks deleted by mistake or removed by sync, the App automatically keeps copies of your tasks and deletion records in its private storage on your device. For the last 30 days it keeps one copy for each day you change your tasks plus one right before each bulk change (clearing completed tasks, syncing a deletion made on another device, an app update, etc.); after that it keeps one copy per month for up to one year and then deletes them. If the total size exceeds a set limit, the oldest copies are deleted first. However, the most recent copy of each kind of change is kept regardless of age so that it can still be restored (it is replaced when the same kind of change happens again). Backups are never sent off your device and are excluded from operating-system backup and device transfer.
 * **Diagnostic records**: to help find the cause when something goes wrong, the App keeps a record of its activity (sync, sync signals, account connection, errors and similar) in its private storage on your device for 30 days (about 2 MB in total). It never records task text, account email or sign-in credentials. Diagnostic records are never sent off your device and are excluded from operating-system backup and device transfer; they leave your device only when you send them yourself by email in a problem report (see 6 below).
 * **Siri and Shortcuts (iOS)**: when you add a task with "Add to LiTodo", Apple handles the speech recognition and the App only receives the recognized task text, which it stores on your device.
+* **Add by voice (Android, iOS; optional)**: when you tap the microphone button and speak, the App adds what you said as a task. The microphone is used only while you speak after tapping the button. The App does not store your voice or send it off your device; it stores only the recognized text as a task on your device. On iOS, the App asks for on-device recognition only and asks for microphone and speech recognition permission the first time you use it (the Apple notice in the permission dialog is set by the operating system). On Android, the App hands recognition to the operating system's speech recognition feature (usually the Google app) and receives only the resulting text; the App itself does not request microphone permission. How that feature processes your voice (on the device or on its servers) follows its provider's policy and your device settings. If you do not use this feature, the microphone is not used.
 
 ### 2) Google account connection and cloud sync (optional)
 Processed only if you connect a Google account in Settings.
